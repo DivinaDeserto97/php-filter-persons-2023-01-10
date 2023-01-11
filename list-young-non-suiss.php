@@ -25,8 +25,8 @@
       </tr>
     </thead>
     <tbody>
-      <?php 
-        writeAllPersons();
+      <?php
+      writeYoungNonSuisse();
       ?>
     </tbody>
   </table>
