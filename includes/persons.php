@@ -89,11 +89,12 @@ function writeYoungerThan40(){
 }
 function writeYoungNonSuisse(){
     foreach (PERSONS as $person){
-        if($person['age'] <= 40 && $person['country'] != 'Schweiz'){
+        if($person['age'] < 30 && $person['country'] != 'Schweiz'){
             echo '<tr><td>'.$person['firstName'].'</td><td>'.$person['lastName'].'</td><td>'.$person['age'].'</td><td>'.$person['country'].'</td></tr>';
         }
     }
 }
+
 /*
 Personen als JavaScript Array:
 [

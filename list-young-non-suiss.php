@@ -26,7 +26,7 @@
     </thead>
     <tbody>
       <?php
-      writeYoungNonSuisse();
+        writeYoungerThan40();
       ?>
     </tbody>
   </table>

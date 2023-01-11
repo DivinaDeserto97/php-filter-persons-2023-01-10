@@ -25,7 +25,7 @@
       </tr>
     </thead>
     <tbody>
-      <?php 
+      <?php
         writeAllPersons();
       ?>
     </tbody>
